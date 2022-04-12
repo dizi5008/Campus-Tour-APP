@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page_life2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/life2_lin"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/foot_bg"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/life2_lin2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/life2_up"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/up" />
+
+        <Button
+            android:id="@+id/life2_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/down" />
+
+        <Button
+            android:id="@+id/life2_again"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/re" />
+
+        <Button
+            android:id="@+id/life2_stop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/so" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/life2_webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">僑光科技大學</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="textview">
+        <item>僑光科大\n04-27016855</item>
+        <item>生輔組\n04-27016855分機 1327 </item>
+        <item>軍訓室\n04-27018279</item>
+        <item>軍訓室緊急事故通報專線\n04-27070785</item>
+        <item>諮商輔導中心\n04-27016855 分機1315</item>
+    </string-array>
+
+    <string name="title_activity_maip">MaipActivity</string>
+
+</resources>

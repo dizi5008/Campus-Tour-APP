@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page_security"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/se_LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/foot_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_security"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center"
+            android:background="#00000000"
+            android:text="校園安全"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:entries="@array/textview" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/sec_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="電話可直接點按撥打，不須加分機。"
+        android:textColor="#FF0000" />
+
+</LinearLayout>

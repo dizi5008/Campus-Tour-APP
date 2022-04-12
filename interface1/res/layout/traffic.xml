@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/page_traffic"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/tr_LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/foot_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center"
+            android:background="#00000000"
+            android:text="交通資訊"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/cal_scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" >
+
+        <LinearLayout
+            android:id="@+id/tra_lin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tra_text1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="公車資訊"
+                    android:textColor="#009FCC"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tra_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="台中客運 8.28.29.33.35.54.157.藍9\n統聯客運 25.37.63.79.125.藍13\n豐原客運 63.228.229\n全航客運 5.199\n仁友客運 45\n和欣客運 160\n巨業交通 167"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/tra_img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/tra_text2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="國道交通" 
+                    android:textSize="20sp"
+                    android:textColor="#009FCC"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tra_text2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="國道一號"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tra_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="1.大雅交流道->往台中方向->右轉黎明路->右轉經貿八路->接黎明路替代道路->左轉僑光科技大學\n2.台中港交流道->往台中方向->左轉黎明路->右轉福星北路->左轉黎明路替代道路->右轉僑光科技大學"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tra_text2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="國道三號"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tra_text2_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="快官交流道->中彰快速道路(74號道路)->右轉西屯路->左轉黎明路->右轉福星北路->左轉黎明路替代道路->右轉僑光科技大學"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tra_text2_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中彰快速道路" 
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ttra_text2_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="1.西屯路交流道->右轉西屯路->左轉黎明路->右轉福星北路->左轉黎明路替代道路->右轉僑光科技大學\n2.南下：西屯路交流道->左轉西屯路->左轉黎明路->右轉福星北路->左轉黎明路替代道路->右轉僑光科技大學"
+                    android:textSize="15sp" />
+                
+                <ImageView
+                    android:id="@+id/tra_img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/tra_text3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="高鐵資訊"
+                    android:textColor="#009FCC"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tra_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="高鐵台中站下車後，請搭乘高鐵快捷公車160號(高鐵台中站-僑光科技大學)，可直達本校。另有33號與125號可抵達本校"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/cal_img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/map" />
+
+    </LinearLayout>
+
+</LinearLayout>

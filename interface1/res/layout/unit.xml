@@ -1,0 +1,2536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/unit_LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/foot_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center"
+            android:background="#00000000"
+            android:text="處室介紹"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" ></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <Button
+            android:id="@+id/btn_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CCFF99"
+            android:text="行政單位" ></Button>
+
+        <Button
+            android:id="@+id/btn_ed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFEE99"
+            android:text="教學單位"></Button>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+             <Button
+                 android:id="@+id/unit_button1"
+                 android:layout_width="200dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:background="@drawable/button"
+                 android:text="校長室"></Button>
+
+    <LinearLayout
+        android:id="@+id/unit_lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/unit_textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="校長  楊敏華 博士\n\n學　歷\n\n中國北京大學法學院法學博士\n美國紐澤西州羅特格斯大學與加州富爾頓大學研究\n臺灣海洋大學海洋法學研究所法學碩士\n臺灣輔仁大學法律系法學士\n\n現　職\n\n僑光科技大學財經法律系專任教授\n中華民國仲裁協會仲裁人\n中國杭州仲裁委員會仲裁員\n中華民國智慧財產權協會理事長\n財團法人博愛服務中心執行董事\n財團法人英才文教基金會董事\n台中市政府顧問\n台中市政府第一屆公害糾紛調處委員會委員\n台中市輔仁大學校友會理事長\n台中市文化交流協會理事長\n輔仁大學教育發展基金會當然委員\n國家政策研究基金會財政金融組顧問\n中國北京大學台灣校友會副理事長\n\n經　歷\n\n01.\n興國管理學院講座教授\n(20140801-20150731)\n02.\n興國管理學院校長\n(20140801-20150201)\n03.\n僑光科技大學圖書資訊長\n(20110801-20120731)\n04.\n僑光科技大學研發長\n(20110201-20110731)\n05.\n100年公務人員特種考試一般警察人員考試\n100年公務人員特種考試警察人員考試及\n100年特種考試交通事業鐵路人員考試命題兼閱卷委員\n(20110704)\n06.\n台中市政府公害糾紛調處委員會委員\n(20110601-20140531)\n07.\n嶺東科技大學財經法律研究所教授兼所長\n(20080801-20110131)\n08.\n99年公務人員特種考試外交領事人員及國際新聞人員考試\n99年公務人員特種考試國際經\n濟商務人員考試\n99年公務人員考試特種考試法務部調查局調查人員考試及\n99年公務人員特種考試國家安全局國家安全情報人員考試典試委員\n(20100921)\n09.\n財團法人英才文教基金會第一屆至第五屆董事\n(19980701-20130630)\n10.\n98年特種考試地方政府公務人員考試命題兼閱卷委員(20091224)\n11.\n財團法人國家政策研究基金會財政金融組特約研究員(20091008-20101007)\n12.\n98年公務人員特種考試基層警察人員考試\n98年公務人員特種考試稅務人員考試\n98年特種考試退除役軍人轉任公務人員考試\n98年公務人員特種考試海岸巡防人員考試\n98年公務人員特種考試關務人員考試及\n98年國軍上校以上軍官轉任公務人員考試命題兼閱卷委員(20090302)\n13.\n台中市公害糾紛調處委員會第六屆委員\n(20090101-20111231)\n14.\n台中市公害糾紛調處委員會第五屆委員\n(20060101-20081231)\n15.\n中國平原大學客座教授\n(20061016)\n16.\n中華民國私立教育事業協會\n榮頒在學校從事教學工作屆滿15年大勇獎之獎狀\n(20060925)\n17.\n輔仁大學教育發展資金委員會委員\n(2000-2007)\n18.\n輔仁大學教育發展資金委員會主席團委員\n(20030101-20041231)\n19.\n經濟部智慧財產局著作權法令宣導講師之感謝狀(20021225)\n20.\n行政院特頒給連續任職滿十年著有勞績\n依獎章條例頒給三等服務獎章\n(200205)\n21.\n第二屆杭州仲裁委員會仲裁員\n(19991118)\n22.\n北京聯合大學人文管理科學系客座教授\n(19990511)\n23.\n87年特種考試台灣省及福建省基層公務人員考試閱卷委員\n(19981110)\n24.\n台中榮譽觀護人協進會顧問\n(19961118)\n25.\n榮頒斐陶榮譽協會會員\n(19810604)"/>
+
+        <ImageView
+            android:id="@+id/unit_img1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+		
+        <TextView
+            android:id="@+id/unit_textView1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="校長室位置\n積中堂3F"/>
+        
+        <ImageView
+            android:id="@+id/unit_img2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        
+        
+        <TextView
+            android:id="@+id/unit_textView2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="網址"
+            android:textColor="#002FFF"
+            android:textSize="17sp" />
+        	
+        <TextView
+            android:id="@+id/unit_textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="http://sec.ocu.edu.tw/files/11-1001-1686.php"
+            android:textColor="#002FFF" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="副校長室" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/unit_textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="林群博　副校長\n學歷\n國立臺灣大學　應用力學研究所博士(1988)\n國立臺灣大學　應用力學研究所碩士(1985)\n國立臺灣大學　機械工程學系(1984)\n學術專長:電磁力學、機電整合、結構分析\n\n經歷\n\n僑光科技大學工業工程與管理系教授(2005-)\n南開科技大學自動化工程系教授(1998-2005)\n漢翔航空工業股份有限公司分析專業工程師\n(1996-1998)\n中科院航發中心助理研究員(1988-1996)\n大葉大學機械系兼任副教授(1997)\n國立彰化師範大學工業教育研究所兼任副教授\n(1990-1995)" />
+		
+        <ImageView
+            android:id="@+id/unit_img3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="副校長室位置\n積中堂1F"/>
+        
+        <ImageView
+            android:id="@+id/unit_img4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+         
+        <TextView
+            android:id="@+id/unit_textView4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#002FFF"
+            android:text="http://sec.ocu.edu.tw/files/11-1001-1948.php" />
+        
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="秘書室" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+        
+        <TextView
+            android:id="@+id/unit_textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="辦理業務:\n法規彙編\n會議記錄\n學生申訴評議委員會" />
+        
+        <ImageView
+            android:id="@+id/unit_img5"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+       <TextView
+            android:id="@+id/unit_textView5_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="秘書室位置\n積中堂3F"/>
+       
+       <ImageView
+            android:id="@+id/unit_img6"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+       
+       <TextView
+            android:id="@+id/unit_textView6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+
+        <TextView
+            android:id="@+id/unit_textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#002FFF"
+            android:text="http://sec.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="教務處" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="教務處各組:\n註冊課務組  招生組  教學發展中心\n進修綜合業務組  華語文中心\n\n教務處業務\n課程修習　全校課表查詢\n證照專區　期中期末考專區\n暑修專區　畢業專題專區\n報到註冊　學籍資訊\n考試成績　在校生註冊\n畢業離校　註冊費用查詢\n平時成績查詢　各類成績證明申請\n歷年成績查詢　教師成績輸入專區\n校友申請資料　學籍申請表下載"
+             />
+
+        <ImageView
+            android:id="@+id/unit_img7"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView7_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="教務處各組位置\n\n註冊課務組\n積中堂1F\n\n招生組\n積中堂1F\n\n教學發展中心\n明城樓1F  016辦公室\n\n進修綜合業務組\n積中堂1F\n\n華語文中心\n圖資大樓4F"/>
+        
+        <ImageView
+            android:id="@+id/unit_img8"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView8_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#002FFF"
+            android:text="http://academic.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="學生事務處"/>
+
+    <LinearLayout
+        android:id="@+id/unit_lin5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+        
+        <TextView
+            android:id="@+id/unit_textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="學務處各組:\n生活輔導組  課外活動指導組  服務學習組 \n衛生保健組  軍訓室  陸生輔導組  諮商輔導中心\n\n學務處主要業務為\n組織運作、經費管理、行政管理三大類\n\n
+組織運作\n
+1.學生事務委員會\n
+2.學生就學獎補助審查委員會\n
+3.生活學習助學金管理委員會\n
+4.學務處處務會議\n
+5.學務處主管會議\n
+6.學務處各級單位管理\n\n
+經費管理\n
+1.學輔經費暨配合款\n
+2.學務遞補人力\n
+3.教育部工讀助學金\n
+4.整體發展獎補助款經常門\n
+5.全校生活學習助學金業務\n
+6.學生就學獎補助\n
+7.校內經常門與資本門\n\n
+行政管理\n
+1.學務處聯合週會\n
+2.學務處公文文書管理\n
+3.學務處網頁建置與管理\n
+4.學務處E化系統建置管理\n
+5.技專校院資料庫\n
+6.整體發展獎補助資料庫\n
+7.學輔工作校際參訪與觀摩
+" />
+        
+        <ImageView
+            android:id="@+id/unit_img9"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+         <TextView
+            android:id="@+id/unit_textView9_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="學生事務處各組位置\n\n服務學習組\n立信樓1F  113辦公室\n\n生活輔導組\n立信樓1F  113辦公室\n\n陸生輔導組\n立信樓1F  113辦公室\n\n軍訓室\n立信樓1F  111辦公室\n\n衛生保健組\n立信樓1F  115辦公室\n\n課外活動指導組\n仲玉樓1F  611辦公室\n\n諮商輔導中心\n雁閣樓B1F"/>
+        
+        <ImageView
+            android:id="@+id/unit_img10"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+
+        <TextView
+            android:id="@+id/unit_textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/admin2/ " />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="總務處" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="總務處各組:\n事務組、文書組、出納組、保管組\n\n組織職掌：\n總務處為全校行政與教學支援單位，為使校園各項行政事務與軟、硬體設施能夠滿足師生教學、研究與生活上的需求，現設事務、文書、出納、保管等四組，分別負責財物採購、財產保管、文書檔案、現金出納、校園建設、環境衛生、環境美化及校園安全等工作。" />
+        
+         <ImageView
+            android:id="@+id/unit_img11"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+         
+         <TextView
+            android:id="@+id/unit_textView11_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="總務處各組位置\n\n事務組\n積中堂1F\n\n文書組\n積中堂1F\n\n出納組\n積中堂1F\n\n保管組\n明城樓1F  018辦公室"/>
+        
+        <ImageView
+            android:id="@+id/unit_img12"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView12_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/genaffa/" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="研究發展處" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="研究發展處單位:\n學術發展組、推廣教育中心\n\n研究發展處業務\n一、統籌、協調及督導本處所屬各組業務。\n二、統籌辦理教育部整體發展獎補助經費相關業務。\n三、辦理公營機關(不含科技部)補助或委託計畫之行政作業。\n四、校務中長程計畫提報。\n\n學術發展組業務\n一、獎助研究措施之辦理及評估－提昇師資款、教師獲得專題研究及產學計畫獎勵、學生專題製作助學金。\n二、辦理教育部整體發展經費－計畫型獎助相關業務。\n三、推動各項學術研究服務及成果推廣相關事宜。\n四、辦理科技部(不含產學)研究計畫管理。\n\n推廣教育中心業務\n一、政府委辦課程企劃、招生業務、課務管理、就業輔導等相關業務\n二、發展特色課程\n三、產業訓練之辦理\n四、台中縣政府委外訓練\n五、推廣教育四技、二技、碩士學分班\n六、台中市勞工大學"/>
+        
+        <ImageView
+            android:id="@+id/unit_img13"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView13_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="研究發展處各組位置\n\n學術發展組\n僑光館1F  711辦公室\n\n推廣教育中心\n僑光館1F  717辦公室"/>
+        
+        <ImageView
+            android:id="@+id/unit_img14"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView14_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://rd.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/unit_button14"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="產學合作處" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/unit_textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="產學合作處單位\n實習就業職涯發展組\n\n產學合作處主要業務\n一、扮演學校與產業界間溝通與合作之橋樑，形成學校對產業界之窗口，積極爭取相關產學合作之委託執行或補助計畫。\n二、整合建立產學合作專業群組團隊，瞭解產業界需求，協助本校與廠商建立合作夥伴關係，充分發掘承接廠商之服務需求。\n三、辦理各項產學合作相關業務之推動、規劃及整合等事宜。\n\n實習就業職涯發展組主要業務\n實習\n撰寫教育部落實校外實習計畫書\n全校校外實習行政業務\n辦理實習講座活動\n辦理實習博覽會\n\n證照\n學生證照獎勵金申請作業\n填報技專資料庫技術證照(4-8)\n填報教育部獎補助資料庫\n統計公告全校證照執行成效\n\n校刊\n校刊編輯作業\n校刊行政業務\n\n校友服務\n提供校友資料庫資料\n校慶活動\n畢業典禮校友接待\n\n畢業生流向調查\n統整各系畢業生流向調查結果\n填報技專資料庫4-10畢業生流向調查\n統整教育部畢業生流向問卷調查(畢業後1年)\n\n" />
+
+        <ImageView
+            android:id="@+id/unit_img15"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView25_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="產學合作處各組位置\n\n實習就業職涯發展組\n僑光館1F  711辦公室"/>
+        
+        <ImageView
+            android:id="@+id/unit_img16"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView26_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="產學合作處網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://eacc.ocu.edu.tw/bin/home.php" />
+
+    	<TextView
+            android:id="@+id/unit_textView32_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="實習就業職涯發展組網址" />
+        
+    	<TextView
+            android:id="@+id/unit_textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/career/index.php" />
+    
+    </LinearLayout>
+    <Button
+            android:id="@+id/unit_button15"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="國際與兩岸事務處  " />
+    
+    <LinearLayout
+        android:id="@+id/unit_lin15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+        
+        <TextView
+            android:id="@+id/unit_textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="國際與兩岸事務處主要業務\n本校為促進國際交流與推展國際業務合作，特成立國際與兩岸事務處，綜理本校國際事務與大陸地區業務。\n為提升師生的國際視野，讓僑光科大成為具國際化特色的教育學府，僑光科大國際與兩岸事務處陸續與美國、英國、日本、奧地利、捷克、東南亞、以及中國等多所國際知名學校締結為姐妹校，並簽署國際學術交流合作協議，藉由實施雙聯學位、交換教師、交換學生、暑期英語海外遊學、學術交流及舉辦各類型國際研討會等交流活動，提供國際學生多管道進入本校深造並增加國際教師學術交流的機會，實質達成提升師生視野、語言能力、促進文化交流與國民外交之目的。\n\nInternational Cooperation\nIn order to advance international communication and promote international service, our school specially established International and Cross-strait Affairs Center to manage our school’s international affairs and mainland area services.\nIn order to broaden the views of teachers and students, and help OCU become an internationalized education school, the Overseas Chinese University’s International and Cross-strait Affairs Center continually concludes sister school arrangements with the United States of America, England, Japan, Austria, the Czech Republic, Southeast Asia, China, and many famous international schools. We have signed many international academic exchange and cooperation agreements implementing double-degrees, exchange of teachers and students, English Summer Overseas Travel, academic exchanges, and seminars organized for various types of international exchange activities. These provide international students access to our school for further studies and increase multi-channel opportunities for the international academic exchange of teachers. The goal is to raise student perspectives, language skills, and promote the purpose of cultural exchanges and citizen diplomacy."/>
+    
+    	<ImageView
+            android:id="@+id/unit_img17"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+    	<TextView
+            android:id="@+id/unit_textView27_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="國際與兩岸事務處位置\n僑光館1F  712辦公室"/>
+    	
+    	<ImageView
+            android:id="@+id/unit_img18"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+    	
+    	<TextView
+            android:id="@+id/unit_textView28_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+    	
+    	<TextView
+    	    android:id="@+id/unit_textView28"
+    	    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://ia.ocu.edu.tw/bin/home.php"/>
+    
+    </LinearLayout>
+    
+    <Button
+            android:id="@+id/unit_button8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="圖書館" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="圖書館各組\n諮詢服務組  採路編目組\n\n圖書館主要業務\n1．為本校「學習資源中心」，徵集各類型資料，支援教師教學研究需求及學生課業學習活動需要。\n2．配合本校各科系學術及實務應用發展，館藏建立發展朝精緻與實用為導向。\n3．積極培養學生資訊素養能力，以教育學生終身學習、獨立學習為服務目標。\n開放時間：8:10-21:30 (假日、寒暑假不適用)" />
+        
+        <ImageView
+            android:id="@+id/unit_img19"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView15_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="圖書館各組位置\n\n諮詢服務組\n圖資大樓(圖書館)1F\n\n採路編目組\n圖資大樓(圖書館)3F"/>
+        
+        <ImageView
+            android:id="@+id/unit_img20"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView16_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://lib.ocu.edu.tw/mp.asp?mp=10" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="人事室" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="人事室主要業務包含升等研習、徵才啟事、職員工成績考核、教育訓練、申訴、獎懲及聘任相關工作" />
+        
+        <ImageView
+            android:id="@+id/unit_img21"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView17_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="人事室位置\n積中堂  3F"/>
+        
+        <ImageView
+            android:id="@+id/unit_img22"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView18_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/personnel/personnel.htm" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button10"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="會計室" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+                
+        <TextView
+            android:id="@+id/unit_textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="會計室主要業務\n1.資料庫管理\n2.預算業務\n3.原始憑證之審核\n4.記帳憑證之編製\n5.會計簿籍之登記6.\n會計報表之編製\n7.財物購置及財產增減之審核及驗收\n8.會計檔案之處理及保管\n9.決算業務\n10.其他有關會計業務之辦理\n11.學雜費收費及財務報表" />
+        
+        <ImageView
+            android:id="@+id/unit_img23"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView19_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="會計室位置\n積中堂  1F"/>
+        
+        <ImageView
+            android:id="@+id/unit_img24"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView20_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/account/" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button11"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="體育室" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="體育室主要業務\n行政組\n公文收發、行政經費申請(含代表隊參加校外競賽)、運動績優獎助金申請、大專體總各項研習及競賽活 動、組務會議及體育運動委員會議、工讀生管理等事宜。\n\n活動組\n舉辦校內外師生各項競賽活動、校代表隊選訓事宜。\n\n教學組\n體育正課及興趣選項課程排課選課及其它教學事宜。\n\n場地器材組\n運動器材申購、保管維護、場地器材借用等事宜。\n\n校內競賽活動部份：\n1.每學年配合校慶舉行全校運動大會。\n2.每學期舉行全校班際各項體育競賽，如：桌球、羽球、排球、 籃球、網球。\n3.舉辦教職員工各項體育活動及師生盃各項體育競賽等。\n4.每學期舉辦中區教職員工及學生各項體育活動友誼賽，如：籃球、桌球、羽球、排球、網球。\n\n校外競賽活動部份：\n1.每學年參加大專運動會。\n2.每學期參加全國大專性教職員工及學生各項體育競賽活動，如： 大專盃籃球賽、木球賽、大專盃排球賽...等。\n3.每學期參加地區性教職員及學生各項體育競賽活動等。\n\n運動代表隊\n每學年擬定校隊組訓計劃，聘具專長之教練，利用課餘及寒暑假時間加強組訓，並發給教練指導津貼。代表隊參加運動競賽獲得優異成績依本校績優獎勵辦法獎勵。特優表現之團隊及個人另依據「體育績優生獎助學金實施辦法」規定敘獎。" />
+        
+        <ImageView
+            android:id="@+id/unit_img25"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView21_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="體育室位置\n僑光館   4F"/>
+        
+        <ImageView
+            android:id="@+id/unit_img26"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView22_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://physical.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button12"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="資訊中心" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+
+         <TextView
+            android:id="@+id/unit_textview29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="資訊中心主要業務\n一、規劃與管理電子資訊資源及校園網路。\n二、負責校務行政資訊系統之規劃、建置與訓練。\n三、提供本校教學、研究及各行政業務所需之相關資訊設備及服務。\n四、執行及推動圖書資訊發展委員會會議決議事項。\n資訊中心發展策略：\n一、積極整合與充分利用現有資訊設備。\n二、全校行政電腦化作業之相關規劃與執行。\n三、協助全校相關資訊教育、活動之策劃與執行。\n四、積極培養學生資訊素養、智慧財產權及資通安全之相關資訊能力。" />
+        
+         <ImageView
+            android:id="@+id/unit_img27"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+         
+         <TextView
+            android:id="@+id/unit_textView29_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="資訊中心位置\n\n圖書大樓 8F 8807辦公室 "/>
+         
+         <ImageView
+            android:id="@+id/unit_img28"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+         
+         <TextView
+            android:id="@+id/unit_textView30_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:text="http://cc.ocu.edu.tw/bin/home.php"
+            android:textColor="#002FFF" />
+        
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_button13"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="環境安全衛生中心" />
+
+    <LinearLayout
+        android:id="@+id/unit_lin13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:text="環境安全衛生中心主要業務\n一、規劃、督導及推動本校各單位之環境安全衛生管理業務。 \n二、規劃、督導環境保護暨安全衛生設施之檢點與檢查。 \n三、規劃辦理環境教育、防火及安全衛生教育宣導。 \n四、督導與辦理實習場所職業災害調查及申報業務。 \n五、規劃實習場所工作人員及學員生健康檢查，實施健康管理。 \n六、推動本校綠色採購、節能減碳及校園綠美化相關業務。 \n七、污水處理設施管理及申報業務。 \n八、執行本校溫室氣體盤查及建立溫室氣體排放清冊。 \n九、其他環境安全衛生相關管理業務之規劃與執行。" />
+        
+        <ImageView
+            android:id="@+id/unit_img29"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView23_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FF3333"
+            android:text="環境安全衛生中心位置\n明城樓 1F "/>
+        
+        <ImageView
+            android:id="@+id/unit_img30"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_textView24_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#002FFF"
+            android:textSize="17sp"
+            android:text="網址" />
+        
+        <TextView
+            android:id="@+id/unit_textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/eshc/" />
+            
+        </LinearLayout>
+
+        </LinearLayout>
+    
+    </ScrollView>
+
+    
+    
+    <ScrollView
+        android:id="@+id/sv_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+    <Button
+        android:id="@+id/unit_edbt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="資訊管理系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/unit_edtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="資管系願景\n「培育具備創造價值優勢的資訊管理人才之優質資訊管理系」。 \n\n資管系培育目標\n以培育「具備創造價值優勢的資訊管理人才」為目標，授以「資訊科技應用能力」的養成內容，並專精於電子商務與組織知識管理的價值創造。其中，「資訊科技應用能力」包括「資訊系統開發與管理能力」及「價值創造能力」，並輔以「專業證照能力」來驗證。資訊管理系依據本校過去「發展具商管領域專業特色之優質學校」的願景為基礎，並考量資訊科技對企業經營所能帶來的強大競爭優勢，因此以培育優質的「資訊科技應用人才」為職志，同時秉持本校「明、誠、立、信」的校訓，以及為能隨時因應快速環境變化與競爭態勢所訂定之本系系訓「團隊、思考、創新」，希望能為企業、社會、國家培養出具有正確價值觀與專業素養的資管人才做出最大的貢獻。" />
+        
+        <ImageView
+            android:id="@+id/unit_edtvimg1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        
+        <TextView
+            android:id="@+id/unit_edtv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="資訊管理系辦公室\n圖資大樓9樓  8928辦公室 "/>
+        <ImageView
+            android:id="@+id/unit_edtvimg2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/im/" />
+            
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="財務金融系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+        <TextView
+            android:id="@+id/unit_edtv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="培育目標\n配合國家經濟建設與金融市場的發展，培育具有職業道德、服務精神、規劃分析能力和專業證照的中、初階財金專業人才；未來希望財務金融研究所的設立，更可以培育出高階財金經理人才，成為中部地區技職校院中，兼具理論與實作能力之財金人才培育重鎮。\n\n發展目標\n1.符合行政院經建會重點發展新興服務業政策\n2.支應中部金融服務業與中科園區廠商之人才需求\n\n發展特色\n1.專業化教學：推動落實本位課程，積極延聘專業教師\n2.證照取得：課程證照化並輔導學生考取相關證照\n3.就業導向：符合行政院經建會重點發展新興服務政策之規劃，達到畢業立即就業目標\n\n教學特色\n1.生活教育與職業道德的養成\n2.落實理論與實務結合教學\n3.輔導與鼓勵考取金融專業證照\n\n未來展望\n1.強化技職教育研發與產學合作機制，將積極與中部地區金融業建立策略聯盟和建教合作關係。\n2.建立中科園區廠商服務網絡，提供公司理財和財富管理諮詢與輔導。\n3.設立財務金融研究所。\n4.加入中區財務論壇組織，強化教學研究能量。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="財務金融系辦公室\n圖資大樓 5F  8519辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://fc.ocu.edu.tw/bin/home.php" />
+        
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="企業管理系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+        
+        <TextView
+            android:id="@+id/unit_edtv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="企管系願景\n1. 成為中部地區最具精緻教學與最具應用性研究的經營管理系所\n2. 培育理論、創新、洞察力且可精進經營管理實務的管理者為宗旨\n\n核心價值\n1. 展現熱誠，並尊重他人權益、差異性與尊嚴\n2. 深信管理知識與技能就是力量\n3. 成員需為自己的行為負責任\n4. 以誠信原則，致力於教學、研究、服務與輔導\n5. 為我們所做的努力追求卓越\n\n培養學生的核心能力\n1. 具備專業知識能力\n2. 具備創新與創業能力\n3. 具備協調整合與團隊合作能力\n4. 具備企業倫理與社會關懷\n5. 具備國際視野與外語能力\n\n企管系的教育理念\n1. 倫理：具培養學生備博雅人文素養精神與良好職業態度，善盡社會責任，符合社會價值觀之能力    \n2. 團隊：具備能與團隊和睦相處、確實達成團隊協調及整合任務精神\n3. 專業：具備企業管理基礎與實務專業知識、跨領域專業知識、及能運用專業軟體能力\n4. 創新：培養學生具有思考與分析之能力，進而具備創新能力\n" />
+        <ImageView
+            android:id="@+id/unit_edtvimg5"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="企業管理系辦公室\n弼臣樓 2F" />
+        <ImageView
+            android:id="@+id/unit_edtvimg6"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv6_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://ba.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="行銷與流通管理系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本系主要在培養零售流通服務產業所需之行銷與物流專業中層與基層人才。本系以培養「零售流通服務科技產業」所需具備之下列核心能力的人才，以達成強化學生競爭力，提升學生就業力之目標：\nA.具備自我管理能力之人才（管理職能）\nA1.具備團隊合作精神\nA2.具備正確(職場)學習態度\nA3.具備解決問題能力\n\nB.具備行銷與流通專業能力之人才(專業職能)\nB1.具備行銷專業與實務能力\nB2.具備流通專業與實務能力\n\nC.培育具備通識知能之人才（一般職能）\nC1.具備基本可溝通英文能力\nC2.提升資訊應用能力\nC3.具備社會人文關懷精神" />
+        <ImageView
+            android:id="@+id/unit_edtvimg7"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="行銷與流通管理系辦公室\n圖資大樓5樓  8521辦公室"  />
+        <ImageView
+            android:id="@+id/unit_edtvimg8"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv8_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv8_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://www.mdm.ocu.edu.tw/" />
+        
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="財金法律系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+        
+        <TextView
+            android:id="@+id/unit_edtv9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="一、資訊科技應用與法律教學結合：課堂面授法律課程外，同時開設遠距教學設置雙向討論區，裨益學生多管道學習途徑。\n二、國家考試取向與法律理論教學並 重：教學注重各項國家考試趨勢，課餘輔導同學取得就業資格，並加強法律基礎理論的教學 。 \n三、 專業分組與實作教學並重： 依學生性向及能力作專業分組，加強學生實作能力，提昇就業競爭力。 \n四、重視 全人與法律倫理教育： 重視法律人文素養之培育，健全法律倫理觀念。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg9"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="財金法律系辦公室\n人文書院  2F" />
+        <ImageView
+            android:id="@+id/unit_edtvimg10"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv10_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/fel/" />
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="會計資訊系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="培育目標\n培育理論與實務兼備之會計人才 \n利用資訊技術提升專業能力。\n注重五育發均衡發展，以達學用為一。\n完全升學，完全就業。\n\n課程特色\n課程設計以理論為基礎，朝實務化及資訊科技應用為發展目標，重視經貿整合環境下電子商務之發展，使學生能隨時了解當前企業經營新環境。同時配合其他商學知識及人文知識課程之開設，造就全方位之會計專業人才，符合社會商業環境之需求。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg11"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="會計資訊系辦公室\n圖資大樓5樓  8520辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg12"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv12_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv12_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/acct/" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="國際貿易系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本系在校務中長程發展計畫指引下，主要為培育國家社會所需的基層及中階層國際貿易和全球運籌人才為宗旨，並努力落實技職教育畢業即就業的目標。面臨政府技職教育政策的發展、中部地區產業結構的調整，以及社會環境對國際貿易和全球運籌人才的需求轉變。近年來本系已不斷地調整策略目標與修正系定位，透過定期課程規劃設計、鼓勵教師進修專業技能、對外延攬優良師資及著重教學品質，以有效滿足社會與產業環境所需的中小企業貿易運籌人才，以貢獻國家社會。\n\n為配合全球化的潮流及呼應政府積極推動全球運籌中心之構想，本系以培養專業化、國際化、現代化、全人化之貿易運籌 人才為培育目標，其重點如下： \n•專業化：為兼顧市場需求與產業互動，本系設計貿易經營管理相關課程，以培育熟諳國際貿易理論與實務並重之國際經貿專業人才。 \n\n•國際化：為提升學生外語能力，使具備良好國際語文溝通與應用能力，本系開設英語、日語、德語及西班牙語等外語課程，以培育外語流暢之國際經貿人才。\n\n•現代化：加強國際商務的訓練，培養具全球運籌素養之現代化國際貿易經營人才，本系設計全球運籌知識相關課程，提升學生專業素養，並透過產學合作，媒合產業所需人才。\n\n•全人化：為強化學生對企業社會責任的使命感，本系注重學生對商業倫理的認知，相繼開設相關之通識課程，以養成全人化的專業人才。 \n\n本系特色-落實完全升學，完全就業理念\n•e化環境：校園e化、學習e化。 \n\n•兩大模組：貿易運籌模組、貿易金融模組。 \n\n•三明治教學：\n第一階段以貿易實務經驗分享，案例解說及線上實務演練為主。\n第二階段安排參觀標準檢驗局、關稅局、船公司貨櫃場等相關貿易單位。\n第三階段學生到鴻昇集團和本系的貿易運籌研訓中心現場實作。 \n\n•四大領域課程：商務基礎、貿易經營、全球運籌、大陸經貿。\n\n•五大證照實務：國際貿易、全球運籌、英語、電腦應用、財務金融。\n\n" />
+        <ImageView
+            android:id="@+id/unit_edtvimg13"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="國際貿易系辦公室\n明城樓1F 013B辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg14"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv14_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv14_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://it.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="金融與餐旅教育中心" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="一、提供相關金融與餐旅證照考試資訊與服務。\n二、開設相關金融與餐旅證照考試輔導課程。\n三、協助金融與餐旅課程線上模擬考試服務。\n四、承辦考選部國家考試及勞動部即測即評及發證學術科相關考試。\n五、整合產業界及校內教學資源，提供校內師生及業界完整金融與餐旅教育規劃。\n六、針對企業或金融與餐旅企業需求，提供人才培訓計劃與考照輔導課程。\n七、對業界之金融與餐旅證照推廣業務接洽。\n八、整合校內師資進行有關銀行、證券、保險、金融控股公司及觀光餐旅相關產業等相關理論與實務之研究。\n九、推動校際金融與餐旅相關科系與廠商策略聯盟與合作計劃，以促進國內外金融與餐旅學術與實務之交流。\n十、申請、承辦政府、業界相關計畫案。\n十一、其他與本中心相關之業務。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg15"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="金融與餐旅教育中心辦公室\n" />
+        <ImageView
+            android:id="@+id/unit_edtvimg16"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv16_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv16_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://finedu.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="餐飲管理系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本校於100學年度設立餐飲管理系乃依據國家發展方向與產業需求，落實全人、務實、專業、數位化與國際化教育，以「餐飲廚藝技能」與「餐飲經營管理」為系發展重點，培育專業實務與創新管理之技職人才為目標，強化本系學生專業知識技能與人文素養，並融合產學合作實習計畫，以「務實致用」為創系基本理念，強化「產研並重」的進階教育從而培養具備國際觀的餐飲專業研發人才為發展願景，當以成為中部地區技職院校首屈一指之餐飲管理系為期許目標。\n\n系務發展\n(一)充實學習環境、精進教學內容\n1.發揮課程發展機制功能，強化學習效果。透過課程委員會，邀請業界、系務顧問及校友代表參與，改進課程架構及教學內容，特別注意學生學習效果，並以調整教學方式及補救教學藉收學習成效。\n2.積極持續延聘專業及高階師資，增添教學圖儀設備，以營造優質  學習環境。\n3.培育學生具有專業實作能力，特別提升技藝實作水準；基礎管理課程及專業管理課程要以應用為主，以培育學生進入職場後能自我發揮其潛在能力；至於技藝課程，則無論是基礎及進階均全以實作教學進行。為此，101學年度開始分餐飲組及廚藝組，進行分組教學。再者，特別講求專業倫理及校訓「明、誠、立、信」與人文關懷能力養成；此外，提升時下學子氣度及氣質亦列為培育要項能力。上述各項能力養成之落實作法，主要集中在課程規劃、校內外實習、導師輔導及課程內容等方面之作法，藉營造優質學習環境，以及不同型式之直接授業或由同學主辦及參與活動等方式以推動工作。\n4.為培育學生技藝精進，訂定制度對甄試入學及技藝有特殊興趣及造詣學生施予卓越訓練。\n5.輔導學生在學期間取得各項相關証照資格。\n6.為培育學生國際觀之涵養，特予課程加重語文，推動國外實習及校內國際文化交流活動。\n\n(二)強化產學合作、促進技術發展\n1.積極爭取校內外資源，教師研究主題既能與產業發展相關，並將研究成果與教學內容相結合。\n2.積極提升產學合作計畫執行業績，以教學合作開發為主軸，進行系內老師專長之整合及共同合作，與業界建立良好關系。\n3.全體系內教師與業界建立共同研討平台，教師定期親赴業界瞭解產業發展現況及交流產業管理實務。\n4.整合一般教師與技術教師以合作出版書籍及指導學生專題研究（製作）等方式，共同推展。\n5.為提升技藝水平，鼓勵教師帶領學生參與國內、外重要比賽，交互觀摩，爭取競賽榮譽。\n\n(三)充分利用有限資源，全力推展服務及推廣工作\n積極爭取政府部門及業界委託，主辦各項技能檢定，新技藝推廣及餐飲相關之活動，一以營造技藝學習環境，一以促進與業界實務交流。\n1.積極爭取各項全國性及區域性競賽來校辦理，營造學生與業界交流互動平台，並藉此促進學生寬廣視野。\n2.就教師個人專長及經歷，鼓勵教師進行業界顧問諮商工作，參與研討會，期刊發表、論文評審及其他業界、學界之評鑑工作，期以有助於各項系務發展工作。\n3.配合學校推廣教育，俾有益於教學資源更大發揮，助長教學效果。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg17"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="餐飲管理系辦公室\n僑光館2F  722辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg18"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv18_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv18_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://fbm.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt10"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="觀光與休閒事業管理系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+                
+        <TextView
+            android:id="@+id/unit_edtv19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本系發展目標\n本系根據觀光產業發展前景，政府未來觀光休閒之發展方向及觀光休閒相關產業界之人才需求、報考四技統測餐旅組學生之未來就業基本能力及本校所處地理位置之便利性等因素考量，制訂本系之發展目標，其內容如下：\n1.建立全台中地區觀光休閒相關科系中，教學設備、師資專業及課程規劃最完整之系所。\n2.培養具備餐飲業、旅館業、旅行業與休閒相關產業等兩個領域以上之專業人才。\n3.培育優質觀光休閒且具綠色環保基礎概念之專業人才。\n4.培養學生具備符合業界需求之人格特質、操作技能及理論基礎，擁有充分就業競爭力人才。\n\n課程規劃\n核心課程涵蓋觀光與休閒事業管理、餐飲業管理、調酒學、飯店管理、旅行業管理、生態旅遊、餐旅管理、休閒農場經營管理、人力資源管理、服務品質管理及資訊系統。\n課程分二大主軸\n1. 觀光旅遊組：包含餐旅學群及旅運學群。\n2. 休閒遊憩組：包含休閒經營管理學群及綠色休閒學群。\n\n未來出路發展\n專業證照：導遊領隊、會展產業管理、Abacus訂位認證考試、國家公園核發環境解說員證。\n\n升學進修管道\n休閒觀光研究所、生態研究所、餐旅研究所。\n\n就業發展\n學生畢業後可從事旅館業、飯店、民宿與餐旅等休閒產業發展。此外由於僑光科技大學地理位置鄰近中部科學園區、台中工業區、潭子加工區，實習及就業十分方便。\n" />
+        <ImageView
+            android:id="@+id/unit_edtvimg19"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="觀光與休閒事業管理系辦公室\n僑光館2F  721辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg20"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv20_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv20_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://trm.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt11"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="旅展與會展管理系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="培育目標\n本系在於培養具旅館與會展管理服務知能丶專業英日語溝通能力及人文素養之基礎管理人才。\n\n教學特色\n「課程實務化」：課程規劃以符合目前業界需求為前提，結合理論與實務操作。\n「技術專業化」：觀光相關領域高階主管偕同課程實務操作教學，使學生習得之技術更專業化。\n「語言國際化」：協助學生提升英語及日語聽、說能力，增加其國際溝通能力。\n「服務生活化」：課程實務操作訓練規劃及生活常規(例如：制服、禮儀等)將有助於學生將「服務」內化成日常生活一部份。\n\n未來出路\n學生升學機會：國內、外觀光、餐旅、休閒相關研究所。\n學生就業機會：國內、外知名五星級旅館，國內、外知名相關連鎖餐廳，國內、外知名旅館管理顧問公司。\n" />
+        <ImageView
+            android:id="@+id/unit_edtvimg21"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="旅展與會展管理系辦公室\n僑光館2F  723辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg22"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv22_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv22_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://hmm.ocu.edu.tw/bin/home.php" />
+
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt12"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="應用英語系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+
+         <TextView
+            android:id="@+id/unit_edtv_edtv23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="系所發展特色\n\n與業界締結產學合作暨建教合作。\n配合教育部政策開舉辦產學攜手計畫。\n辦理社區建教合作與推廣教育，提供台中市勞工大學語言課程，服務社區、回饋社會。\n充分發揮語言中心之功能，提供英語檢定服務。\n促進國際合作及學術交流。\n五位外籍教師教授會話課，營造全英語環境。\n系務組織完善，運作順暢。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg23"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="應用外語系辦公室\n僑光館1F  716辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg24"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv24_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv24_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://ae.ocu.edu.tw/bin/home.php" />
+        
+        
+    </LinearLayout>
+    
+        <Button
+            android:id="@+id/unit_edbt13"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="應用華語文系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本系因應全球華文熱潮，以深耕地方文化。放眼華人世界的創系理念，規劃以華語文能力與媒體編採技能為核心，文化創意與華語教學為職場面向。並藉社區人文營造拓展學生實務學習面向，培育「心中有愛、腹中有墨、手中有筆」的華語文應用人才。\n\n課程規劃重點與特色：\n華語文基礎能力訓練\n媒體編採的應用\n華語文師資的培育\n社區人文營造的實務操作\n文化創意的拓展" />
+        <ImageView
+            android:id="@+id/unit_edtvimg25"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="應用華語文系辦公室\n人文書院1F" />
+        <ImageView
+            android:id="@+id/unit_edtvimg26"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv26_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv26_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://w3.ocu.edu.tw/ac/www/index.php" />
+            
+        </LinearLayout>
+        
+       <Button
+            android:id="@+id/unit_edbt14"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="語言中心" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本中心職掌如下：\n一、協助各系科訂定符合部定學生畢業時，所應具備之英文標準。\n二、協助應用外語系選用適合五專與四技共同英文課程之教科書。\n三、評估校內學生英文學習效果。\n四、辦理全校學生英文演講、朗讀、寫作、戲劇、課後輔導等相關提升英文能力業務。\n五、辦理新生入學英文能力安置測驗、評估追蹤測驗與全民英檢模擬測驗。\n六、提供各系科英文教學所需之圖儀視聽設備。\n七、應政府或私人機構之委託辦理各項英文檢測。\n八、其他與本中心宗旨相關之業務。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg27"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="語言中心辦公室\n圖資大樓4樓  8421辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg28"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv28_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv28_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://language.ocu.edu.tw/bin/home.php" />
+            
+    </LinearLayout>
+        
+     <Button
+            android:id="@+id/unit_edbt15"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="資訊科技系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本校為配合中部科學園區的發展、資訊相關背景人才的迫切需要，並因應國家整體建設，深切了解高科技資訊專業人才培育的重要性，於93學年度創立資訊科技系。95學年度起成立產學攜手二技專班(與友達光電、東勢高工合作)、二技在職專班，之後致力推動產學攜手專班，並先後分別與佳能科技、菱生精密、豐原高商合作。96學年度起招收工程科技研究所資訊科技組碩士班學生，工程科技研究所之後於98學年改名為「資訊科技研究所」，並併入資訊科技系。合併之後，本系學制已有日間部四技、進修部四技、碩士班及產學攜手專班，期能培育出更多具國際競爭力之資訊科技優秀人才。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg29"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="資訊科技系辦公室\n圖資大樓9樓 8928辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg30"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv30_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv30_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://imtech.ocu.edu.tw/bin/home.php" />
+            
+    </LinearLayout>
+    
+     <Button
+            android:id="@+id/unit_edbt16"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="工業工程與管理系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="培育目標 \n培育具備工程實作、管理技能及系統整合規劃之工業工程與管理的中、基層專業人才。使其能有效整合工程、管理與科技等系統之資源，以擔負未來工商企業界與服務業界，在生產與系統工程、生產與系統管理，以及品質管理方面之相關職務。\n\n課程特色\n課程基礎以工程及管理兩方面為主軸，強調實務與專題製作能力，以訓練獨立思考與解決問題之基本能力。本位課程以培育學生工業工程與管理能力為目標，專業課程包括工業工程與管理、產業概論、生產與作業管理、作業研究、工作研究、人因工程、物料管理、品質管理、系統分析與設計、系統發展與運作等。專業素養則依學生個人興趣培養其專業技能，使其具備就業競爭力，專業課程模組及其相關領域概述如下﹕\n一、系統工程與創新模組【領域﹕資料庫管理、企業資運規劃、人力資源管理、工程經濟、可靠度分析、系統設計與分析，系統工程與系統管理、電腦輔助系統分析、創新與科技管理、專案管理、運籌管理】。\n二、機電整合與機械應用模組【領域：自動化技術、順序控制與實習、可程式控制與實習、氣油壓技術、氣壓控制與實習、RFID控制應用、機電整合技術與、可靠度分析】。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg31"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="工業工程與管理系辦公室\n清源樓2F  221辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg32"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv32_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv32_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://iem.ocu.edu.tw/bin/home.php" />
+            
+    </LinearLayout>
+    
+    <Button
+            android:id="@+id/unit_edbt17"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="多媒體與遊戲設計系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="系所特色與發展重點\n1.以視覺、設計、數位、藝術為內涵，多媒體為工具，進行動畫、影視與多媒體互動設計人才訓練，滿足國家與國際之間廣大數位設計人才的需求。\n2.為符合學生未來就業的需求，本系課程以視覺與數位設計實務操作為主、理論講述為輔，期能供應市場廣大之數位設計、動畫、影視、多媒體互動、虛擬實境、數位學習、數位美術、數位音樂及設計企劃等人力需求。\n3.本系之成立能提供更多有關設計方面進修之機會，依學生興趣、能力或就業方向考量，鼓勵並隨時協助進入本系進行動畫、影視與多媒體互動等領域就讀。\n\n課程規劃\n本系設立宗旨目標乃是培養國家社會所需之數位多媒體與數位遊戲設計專業人才，具體教育目標為：以人文、藝術為內涵，結合資訊科技應用， 以培育學生數位創作能力與素養，訓練學生與多媒體遊戲產業接軌之專業實務設計與創作技能。\n必修課程以培養基本專業素養為主，選修課程以兼顧時代脈動和創作應用為主，專業課程以「動畫、影視與多媒體互動設計」為主軸，全系課程歸納為以下類別： \n基礎課程：為滿足動畫、影視與多媒體互動等課程，本系安排素描、平面設計、影像與媒體概論、聲音設計、戲劇編導、創意思考等科目。\n動畫： 2D與3D動畫、立體塑模、故事設計、動畫編劇與分鏡、3D後製特效、材質與渲染、3D角色造型與動作設計、3D場景設計等科目。\n影視：影音語法構成、影視剪輯實務、影視光影設計、影視作品導讀、影片製作與企劃、非線性剪輯、影視音效與配樂，影視基礎造型等科目。\n多媒體互動 ： 遊戲製作、網頁設計與架設、虛擬實境、擴增實境、數位學習、數位典藏、文化創意與設計等科目。\n\n學生實習規劃\n就讀本科系，學生需在大二與大三暑假期間完成160小時實習課程，讓學生於本系建議之多媒體產業見習。除了可實際體驗實務設計經驗外，亦可將所學與產業需求連結應用，了解自己之專長與興趣，接觸產業人際，提早參與相關產業工作，以利畢業後之工作接軌。 " />
+        <ImageView
+            android:id="@+id/unit_edtvimg33"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="多媒體與遊戲設計系辦公室\n立信樓2F  123辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg34"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv34_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv34_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://mgd.ocu.edu.tw/bin/home.php" />
+            
+    </LinearLayout>
+    
+    <Button
+            android:id="@+id/unit_edbt18"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="生活創意設計系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本系以文化為基礎，設計為載體，將文化與創意結合，提供教師與學生一個創意平台的發揮，從文化內涵的培養及建立，整合專業的平面視覺設計、商品設計、空間場域規畫，以培育學生多方面的設計能力，整合於活動、展覽、地方形象特色運用…等跨領域設計，提供未來台灣發展文化創意相關事業及觀光發展產業的專業人才，學生可從不同設計領域及整合的過程中，找到自己的興趣加以發揮，且各領域專長均會與實務經驗相互搭配，以培育學生之專業能力符合職場需求。" />
+        <ImageView
+            android:id="@+id/unit_edtvimg35"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="生活創意系辦公室\n立信樓2F  125辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg36"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv36_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv36_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://ild.ocu.edu.tw/bin/home.php" />
+            
+    </LinearLayout>
+    
+     <Button
+            android:id="@+id/unit_edbt19"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="電腦輔助工業設計系" />
+
+    <LinearLayout
+        android:id="@+id/unit_edlin19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:visibility="gone">
+                
+        <TextView
+            android:id="@+id/unit_edtv37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="本系教學以數位本位、機電整合工業設計為特色，使學生畢業後能與業界無縫接軌，達成百分百立即就業，三大超人力訓練，具體做法為：\n十八銅人：徒手草繪、產品造型、商品包裝行銷、設計企畫管理、機電整合功能設計、工程製造分析、電腦應用、創意發揮與人因設計\n十方達人：國際設計競賽與世界發明展、僑光發明王社團、工設大師論壇、設計戰鬥營、產業實習、創新設計中心\n紅頂商人：商品化、專利申請、市場策略、專案管理、品牌行銷、設計管理與電子商務" />
+        <ImageView
+            android:id="@+id/unit_edtvimg37"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FF3333"
+            android:text="電腦輔助工業設計系辦公室\n清源樓2F  221辦公室" />
+        <ImageView
+            android:id="@+id/unit_edtvimg38"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/unit_edtv38_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#002FFF"
+            android:text="網址"/>
+        <TextView
+            android:id="@+id/unit_edtv38_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#002FFF"
+            android:text="http://caid.ocu.edu.tw/bin/home.php" />
+            
+    </LinearLayout>
+    
+    
+        </LinearLayout>
+    
+    </ScrollView>
+    
+    
+    
+</LinearLayout>

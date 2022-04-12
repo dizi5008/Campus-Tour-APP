@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page_life"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/life_LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/foot_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_life"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center"
+            android:background="#00000000"
+            android:text="生活"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/life_LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/life_btnapple"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/apple1" />
+
+        <Button
+            android:id="@+id/life_btnltn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/free" />
+
+        <Button
+            android:id="@+id/life_btnnow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/now" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/life_LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/life_btnog"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/techorang" />
+
+        <Button
+            android:id="@+id/life_btntechnew"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/technews" />
+
+        <Button
+            android:id="@+id/life_btnnext"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/time" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/life_LinearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/life_btnsky"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sky" />
+
+        <Button
+            android:id="@+id/life_btnbus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/business" />
+
+        <Button
+            android:id="@+id/life_btncnyes"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/cnyes" />
+
+    </LinearLayout>
+
+</LinearLayout>
